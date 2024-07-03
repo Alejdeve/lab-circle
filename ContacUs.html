@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="./styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="bar-nav">
+            <a href="#"><img src="./lab-brief-w4/drive-download-20240627T093913Z-001/logos/circle.svg" alt="Logo circle"></a>
+            <nav class="nav-bar">
+                <ul>
+                    <a href="#"><li id="home">Home</li></a>
+                    <a href="#"><li>Projects</li></a>
+                    <a href="#"><li>Services</li></a>
+                </ul>
+            </nav>
+            <button onclick="location.href='https://chatgpt.com/c/f37c8972-0c51-49c6-84fd-2f5338fd2ce6'">Contact Us</button>
+        </div>
+    </header>
+    <div class="form-complete">
+        <form>
+            <label>Full Name *</label><br>
+            <input type="text" id="fname" class="input-form" name="fname" placeholder="Enter Your full name" required>
+            <div id="fname-error" class="error"></div>
+            <div class="email-tel">
+                <article>
+                    <label>Email</label><br>
+                    <input type="email" id="email" class="input-form" name="email" placeholder="Enter your email address">
+                    <div id="email-error" class="error"></div>
+                </article>
+                <article> 
+                    <label>Phone</label><br>                               
+                    <input type="tel" id="phone" class="input-form" name="phone" placeholder="Enter your phone number">
+                    <div id="phone-error" class="error"></div>
+                </article>
+            </div>
+            <label>Message</label>
+            <input type="text" id="message" class="input-form" placeholder="Write your message here....">
+            <div id="message-error" class="error"></div>
+            <input type="submit" id="submit" class="input-form" placeholder="submit">
+        </form>
+    </div>    
+    <footer>
+        <div class="footer-l">
+            <img src="./lab-brief-w4/drive-download-20240627T093913Z-001/logos/circle.svg">
+            <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</p>
+        </div>
+        <div class="footer-r">
+            <a href="">Team</a>
+            <a href="">Services</a>
+            <a href="">About Us</a>
+            <a href="">Press</a>
+            <a href="">Projects</a>
+            <a href="">Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="contacus.js"></script>        
+</body>
+</html>
