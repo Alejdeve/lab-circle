@@ -12,98 +12,93 @@ Como base tenemos un diseño de [Figma](https://www.figma.com/?utm_medium=affili
 - Emoticones
 - logos
 
-## Imágenes
-
-![Descripción de la imagen 1](./drive-download-20240627T093913Z-001/logos/circle.svg)
-*Figura 1: Ejemplo de logo circle.*
-
-![Descripción de la imagen 2](./drive-download-20240627T093913Z-001/projects-section/1.jpg)
-*Figura 2: Ejemplo imagen usada en proyectos.*
+## Imágenes Ejemplo
 
 <p align="left">
   <img src="./drive-download-20240627T093913Z-001/logos/circle.svg" alt="Logo circle" width="200"/>  
 </p>
+Figura 1: Ejemplo de logo circle.
+<p></p>
+<p></p>
+<p align="left">
+  <img src="./drive-download-20240627T093913Z-001/projects-section/1.jpg" alt="Logo circle" width="200"/>  
+</p>
+Figura 2: Imagen utilizada en seccion proyecto.
 
-## Título 1
+## Pasos
 
-### Subtítulo 1
+## Visual Studio code
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra nulla.
+Para el desarrollo del proyecto debemos utilizar 3 lenguajes de programación principales que explicaremos más adelante.
+-	HTML
+-	CSS
+-	JavaScript
+Pero para poder utilizar estos lenguajes necesitamos una herramienta que nos permita comunicarnos con el ordenador y dar unas indicaciones para que el ordenador siga el orden que queremos y realice o ejecute las acciones requeridas en cada lenguaje.
+Existen varios editores de código como, Atom, sublime o paginas web donde puedas escribir código de diferentes lenguajes, para este proyecto utilizare Visual studio code, no solo porque es el más popular, sino porque es gratuito, intuitivo y me ofrece lo que yo necesito para empezar a desarrollar mi código.
 
-Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-## Título 2
+### Visual Studio Code (VS Code):
 
-### Subtítulo 2
+Es un editor de código fuente gratuito desarrollado por Microsoft que soporta diversas extensiones para agregar funcionalidades adicionales, incluyendo soporte para múltiples lenguajes de programación.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+## [HTML (HyperText Markup Language):](./index.html)
 
-Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+HTML es el lenguaje de marcado estándar utilizado para crear y estructurar contenido en la web. Proporciona la estructura básica de las páginas web mediante el uso de etiquetas que definen elementos como encabezados, párrafos, enlaces y imágenes. 
 
-## Título 3
+HTML permite organizar el contenido y construir la estructura fundamental de una página web, estableciendo el esqueleto sobre el cual se pueden aplicar estilos y funcionalidades adicionales.
 
-### Subtítulo 3
+Para este proyecto lo primero que hice fue crear en VS un archivo HTML, donde empecé creando la estructura de mi página principal (index), al terminar mi primera estructura, la utilice de guía para crear los otros 2 archivos HTML requeridos (project y ContacUs).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Si quieres ver la estructura da click en el titulo.
 
-Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+## [CSS (Cascading Style Sheets):](./styles.css)
 
-## Título 4
+Es un lenguaje de estilo usado para definir la apariencia visual de las páginas web. este lenguaje me Permito aplicar estilos a los elementos HTML, como colores, fuentes, márgenes y diseño en general. 
 
-### Subtítulo 4
+CSS facilita la separación de la presentación del contenido, permitiendo que los desarrolladores cambien el diseño de una página sin modificar su estructura HTML subyacente, lo cual es esencial para crear sitios web visualmente atractivos y coherentes.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.
+Este lenguaje también sirve para hacer el sitio web responsive (que se vea ordenado en cualquier dispositivo), aunque esta parte la realice al final del trabajo cuando ya tenia todo estructurado y terminado.
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo.
+Si quieres ver la estructura da click en el titulo.
 
-## Título 5
+## [JavaScript (JS):](./contacus.js)
 
-### Subtítulo 5
+es un lenguaje de programación que permite añadir interactividad y dinamismo a las páginas web. A diferencia de HTML y CSS, que se encargan de la estructura y el estilo, JavaScript permite implementar funcionalidades complejas, como validación de formularios, manipulación del DOM y creación de animaciones. Este lenguaje es crucial para desarrollar aplicaciones web interactivas y mejorar la experiencia del usuario mediante la adición de comportamiento dinámico a los elementos de la página.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.
+En este proyecto tal como se en el código, creamos unas funciones para validar el formulario de nuestro sitio web, las funciones validan:
+1.	Que escriban el nombre completo.
+2.	Que escriban un correo electrónico valido.
+3.	Que se numérico el teléfono.
+4.	Que se escriba un mensaje
+5.	Que todo se valide hasta el momento de dar submit. 
 
-Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Si quieres ver la estructura da click en el titulo.
 
-## Título 6
+## Git
 
-### Subtítulo 6
+Es un sistema de control de versiones distribuido que permite a los desarrolladores gestionar y realizar un seguimiento de los cambios en el código fuente a lo largo del tiempo. Facilita la colaboración entre múltiples desarrolladores al permitir la creación de ramas independientes para experimentar con nuevas características sin afectar el código principal. Git registra un historial detallado de los cambios, lo que ayuda a revertir modificaciones no deseadas y mantener un registro de la evolución del proyecto.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
+## [GitHub](https://github.com/Alejdeve/lab-circle.git)
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.
+En este punto del proyecto ya tenemos mucho trabajo adelantado, el cual hasta ahora se encuentra solo en la memoria de nuestro ordenador en nuestros archivos o carpetas de VS, es hora de almacenarlo en un lugar seguro donde podemos abrirlo desde cualquier lugar y podamos compartirlo con otros desarrolladores. 
 
-## Título 7
+Vamos a utilizar GitHub que es una plataforma de hospedaje basada en la web que utiliza Git para gestionar y almacenar repositorios de código fuente. Ofrece herramientas para la colaboración en proyectos de software, incluyendo la capacidad de compartir código, realizar revisiones de cambios y gestionar incidencias. GitHub facilita el trabajo en equipo mediante la integración de funciones como pull requests y la colaboración en línea, permitiendo a los desarrolladores trabajar juntos de manera más eficiente.
 
-### Subtítulo 7
+Debemos crear un repositorio en github donde vamos a enviar nuestro trabajo de Visual studio code, para ello vamos a fusionar nuestro repositorio, con nuestra carpeta de trabajo y de esta forma estar sincronizados con nuestro Git.
+Podemos trabajar e ir actualizando nuestro repositorio cada que lo necesitamos utilizando desde Visual estudio code los comandos:
+-	Git add . para adicionar todo lo trabajado desde la última actualización.
+-	Git commit -m “comentario” para aceptar cambios y guardarlos en Github.
+-	Git status para verificar que los datos se actualizaron y no hay pendientes.
+-	Git push, para subir todos los cambios y se puedan ver en GitHub.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Si quieres acceder al git de este proyecto, da click en el titulo.
 
-Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+## Netlify
 
-## Título 8
+El trabajo que llevamos nos permite ir mirando como esta el proyecto, solo desde nuestro ordenador, ya que tenemos los archivos en nuestra carpeta, pero no podemos enviar un link o mostrarlo a un cliente o personas interesadas en mirarlo, por esto necesitamos una plataforma de despliegue y alojamiento para aplicaciones web modernas y sitios estáticos.
 
-### Subtítulo 8
+Netlify nos permite crear un sitio para compartir, para ello debemos subir todos nuestros archivos como imágenes, emoticones, logos etc… utilizados en la página, para hacer todo esto posible, debemos sincronizar GitHub, ya que en el repositorio esta todo lo requerido.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+gracias a esta herramienta puedes ver mi proyecto haciendo click [aqui.](https://thriving-boba-7b56b8.netlify.app/).
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
 
-## Título 9
-
-### Subtítulo 9
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.
-
-## Título 10
-
-### Subtítulo 10
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
----
-
-*Este README es un ejemplo y utiliza texto de Lorem Ipsum para las secciones explicativas.*
