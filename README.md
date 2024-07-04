@@ -33,6 +33,7 @@ Para el desarrollo del proyecto debemos utilizar 3 lenguajes de programación pr
 -	HTML
 -	CSS
 -	JavaScript
+
 Pero para poder utilizar estos lenguajes necesitamos una herramienta que nos permita comunicarnos con el ordenador y dar unas indicaciones para que el ordenador siga el orden que queremos y realice o ejecute las acciones requeridas en cada lenguaje.
 Existen varios editores de código como, Atom, sublime o paginas web donde puedas escribir código de diferentes lenguajes, para este proyecto utilizare Visual studio code, no solo porque es el más popular, sino porque es gratuito, intuitivo y me ofrece lo que yo necesito para empezar a desarrollar mi código.
 
